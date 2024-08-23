@@ -13,6 +13,7 @@ $ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c n
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 $ pip install open_clip_torch clean-fid
+$ pip install Cython
 $ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 ```
 
