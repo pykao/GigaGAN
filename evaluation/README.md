@@ -7,7 +7,9 @@ We employ the Fre'chet Inception Distance (FID) and CLIP-score to compare divers
 Before starting, make sure to install PyTorch 1.7.1 (or a newer version) and torchvision along with some additional dependencies. 
 
 ```
-$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+$ conda create -n GigaGAN python=3.9
+$ conda activate GigaGAN 
+$ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 $ pip install open_clip_torch clean-fid
